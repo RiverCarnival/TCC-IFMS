@@ -1,0 +1,96 @@
+
+Tratamento das palavras-chave com querys, filtragem por titulo, key-words, resume e olhando para os últimos 5, 4, 3 e 2 anos, pegando apenas artigos publicados:
+
+TITLE-ABS-KEY ( neural AND networks AND upscaling AND super-resolution ) AND PUBYEAR > 2017 AND DOCTYPE ( ar )
+
+Resultado: 75 documents found
+
+
+TITLE-ABS-KEY ( neural AND networks AND upscaling AND super-resolution ) AND PUBYEAR > 2018 AND DOCTYPE ( ar )
+
+
+Resultado: 71 documents found
+
+TITLE-ABS-KEY ( neural AND networks AND upscaling AND super-resolution ) AND PUBYEAR > 2019 AND DOCTYPE ( ar )
+
+
+Resultado: 62 documents found
+
+
+TITLE-ABS-KEY ( neural AND networks AND upscaling AND super-resolution ) AND PUBYEAR > 2020 AND DOCTYPE ( ar )
+
+
+Resultado: 43 documents found
+
+
+Aumentando o escopo das palavras chaves para e modificando  “neural networks” para “deep learning”:
+
+TITLE-ABS-KEY("Deep Learning" AND upscaling AND super-resolution) AND PUBYEAR > 2020 AND DOCTYPE(ar) 
+
+Resultado: 35 documents found
+
+TITLE-ABS-KEY("Deep Learning" AND upscaling AND super-resolution) AND PUBYEAR > 2019 AND DOCTYPE(ar) 
+
+Resultado: 47 documents found
+
+
+TITLE-ABS-KEY("Deep Learning" AND upscaling AND super-resolution) AND PUBYEAR > 2018 AND DOCTYPE(ar) 
+
+Resultado: 53 documents found
+
+
+TITLE-ABS-KEY("Deep Learning" AND upscaling AND super-resolution) AND PUBYEAR > 2017 AND DOCTYPE(ar) 
+
+Resultado: 55 documents found
+
+
+Unindo as 4 palavras chaves:
+
+TITLE-ABS-KEY ( "Deep Learning" AND upscaling AND super-resolution AND "neural networks" ) AND PUBYEAR > 2017 AND DOCTYPE ( ar )
+
+resultado:  28 documents found
+
+TITLE-ABS-KEY ( "Deep Learning" AND upscaling AND super-resolution AND "neural networks" ) AND PUBYEAR > 2018 AND DOCTYPE ( ar )
+
+resultado: 27 documents found
+
+TITLE-ABS-KEY ( "Deep Learning" AND upscaling AND super-resolution AND "neural networks" ) AND PUBYEAR > 2019 AND DOCTYPE ( ar )
+
+resultado:  23 documents found
+
+TITLE-ABS-KEY ( "Deep Learning" AND upscaling AND super-resolution AND "neural networks" ) AND PUBYEAR > 2020 AND DOCTYPE ( ar )
+
+resultado: 14 documents found
+
+
+
+Tentando encaixar Texture Recreation ou Texture Reconstruction:
+
+
+only test:
+TITLE-ABS-KEY ( "texture recreation" OR "texture reconstruction" ) AND PUBYEAR > 2020 AND DOCTYPE ( ar )
+
+Resultado: 46 documents found
+
+
+TITLE-ABS-KEY ( "Deep Learning" AND upscaling AND super-resolution AND "neural networks" AND ( "texture recreation" OR "texture reconstruction" ) ) AND PUBYEAR > 2020 AND DOCTYPE ( ar )
+
+Resultado: 0
+
+
+TITLE-ABS-KEY ( ( "Deep Learning" OR "neural networks" ) AND ( "upscaling" OR "super-resolution" ) AND ( "texture recreation" OR "texture reconstruction" ) ) AND PUBYEAR > 2020 AND DOCTYPE ( ar )
+
+Resultado:  3 documents found
+
+TITLE-ABS-KEY ( ( "Deep Learning" OR "neural networks" ) AND ( "upscaling" OR "super-resolution" ) AND ( "texture recreation" OR "texture reconstruction" ) ) AND PUBYEAR > 2019 AND DOCTYPE ( ar )
+
+Resultado:  4 documents found
+
+
+TITLE-ABS-KEY ( ( "Deep Learning" OR "neural networks" ) AND ( "upscaling" OR "super-resolution" ) AND ( "texture recreation" OR "texture reconstruction" ) ) AND PUBYEAR > 2018 AND DOCTYPE ( ar )
+
+Resultado:  6 documents found
+
+TITLE-ABS-KEY ( ( "Deep Learning" OR "neural networks" ) AND ( "upscaling" OR "super-resolution" ) AND ( "texture recreation" OR "texture reconstruction" ) ) AND PUBYEAR > 2017 AND DOCTYPE ( ar )
+
+Resultado:  7 documents found
